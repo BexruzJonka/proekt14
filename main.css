@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+  }
+  
+  .header {
+    background: #111;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+    .hero {
+        background-image: url('./images/bot.jpg');
+        background-size: cover;
+        background-position: center;
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        text-align: left;
+        padding: 40px;
+      }
+      
+      
+  
+  .hero-text h1 {
+    font-size: 28px;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    background: crimson;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero-img img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .services {
+    padding: 50px 30px;
+    background: #fff;
+  }
+  
+  .services h2 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .service-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .service {
+    width: 45%;
+    margin-bottom: 30px;
+  }
+  
+  .service img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .service h3 {
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .contact {
+    background: #00bcd4;
+    color: #fff;
+    padding: 50px 30px;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .contact-box .map img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+  }
+  
+  .form input,
+  .form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .form button {
+    background: #fff;
+    color: #00bcd4;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .footer {
+    background: #111;
+    color: #fff;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
